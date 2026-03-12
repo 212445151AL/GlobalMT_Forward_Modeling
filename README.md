@@ -4,7 +4,7 @@ A parallel finite element solver for global MT forward modeling, implementing ad
 
 ## Features
 
-- **3D Motional Induction Modeling**: Solves the curl-curl equation for secondary electric fields
+- **3D MT Modeling**: Solves the curl-curl equation for secondary electric fields
 - **Adaptive Mesh Refinement**: Goal-oriented and non-goal-oriented h-refinement strategies
 - **Parallel Computing**: MPI-based distributed memory parallelism
 - **Multiple Source Periods**: Handles three independent motional current sources
