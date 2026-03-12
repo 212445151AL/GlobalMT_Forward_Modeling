@@ -1,6 +1,6 @@
-# Global Motional Induction Forward Modeling
+# Global MT Forward Modeling(Considering anisotropic media)
 
-A parallel finite element solver for global-scale motional induction electromagnetic forward modeling, implementing adaptive mesh refinement and secondary field formulation.
+A parallel finite element solver for global MT forward modeling, implementing adaptive mesh refinement and secondary field formulation.
 
 ## Features
 
@@ -72,7 +72,7 @@ stations.dat         # Station coordinates file
 Ocean_P1_S1 12.0
 # element_count
 3
-# element_id Jx_real Jx_imag Jy_real Jy_imag Jz_real Jz_imag
+# element_id Jx_real Jx_imag Jy_real Jy_imag Jz_real Jz_imag (You need to consider the coordinate system transformation)
 1001 1.2e-3 0.5e-3 2.1e-3 0.3e-3 0.0 0.0
 1002 0.8e-3 0.2e-3 1.5e-3 0.1e-3 0.0 0.0
 1003 0.5e-3 0.0   0.9e-3 0.0   0.0 0.0
