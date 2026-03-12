@@ -1,6 +1,6 @@
 # Global MT Forward Modeling(Considering anisotropic media)
 
-A parallel finite element solver for global MT forward modeling, implementing adaptive mesh refinement and secondary field formulation.
+A parallel finite element solver for global MT forward modeling with adaptive mesh refinement.
 
 ## Features
 
